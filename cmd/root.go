@@ -9,6 +9,7 @@ var rootCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(cssCmd)
+	rootCmd.AddCommand(ormCmd)
 }
 
 func Execute() error {
